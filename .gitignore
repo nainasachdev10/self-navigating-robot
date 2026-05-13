@@ -1,0 +1,29 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Model/data artifacts (kept locally)
+checkpoints/
+
+# Common large ML artifacts (ignore if they appear)
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.safetensors
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Local tool state (avoid committing)
+.claude/
